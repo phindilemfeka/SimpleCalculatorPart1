@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SimpleCalculatorTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2020-01-06T11:55:36" hostname="recruit-ThinkCentre-M73" time="0.016">
+<testsuite name="SimpleCalculatorTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2020-01-14T12:35:40" hostname="recruit-ThinkCentre-M73" time="0.024">
   <properties/>
-  <testcase name="productTest()" classname="SimpleCalculatorTest" time="0.013">
+  <testcase name="productTest()" classname="SimpleCalculatorTest" time="0.019">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;9&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;9&gt; but was: &lt;4&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
-	at SimpleCalculatorTest.productTest(SimpleCalculatorTest.java:18)
+	at SimpleCalculatorTest.productTest(SimpleCalculatorTest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -75,14 +75,14 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="addTest()" classname="SimpleCalculatorTest" time="0.001">
+  <testcase name="addTest()" classname="SimpleCalculatorTest" time="0.002">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;8&gt; but was: &lt;7&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;8&gt; but was: &lt;7&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
-	at SimpleCalculatorTest.addTest(SimpleCalculatorTest.java:11)
+	at SimpleCalculatorTest.addTest(SimpleCalculatorTest.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
